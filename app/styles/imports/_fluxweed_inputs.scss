@@ -1,0 +1,50 @@
+/* Style for text imputs
+part of the fluxweed library
+
+meant to be used with either a textarea tag, or an input with type="text"
+*/
+textarea {
+	margin-bottom: 1rem;
+	height: 10rem;
+
+	&.tall {
+		height: 20rem
+	}
+
+	&.short {
+		height: 5rem;
+	}
+}
+
+textarea, input[type=text] {
+	@include animate-box-shadow;
+	font-size: 1.6rem;
+	font-family: $body-text;
+	color: $black;
+	outline: none;
+	resize: none;
+	border: none;
+	margin: $border-thickness;
+	border: $border-thickness solid $grey-3;
+	border-radius: $large-rounded-corner;
+	padding: 0.4rem 0.8rem;
+	width: 100%;
+
+	&:focus {
+		border: $border-thickness solid $blue;
+	}
+
+	&.error {
+		border: $border-thickness solid lighten($red, 30%);
+	}
+	&.error:focus {
+		border: $border-thickness solid $red;
+	}
+
+	&.search {
+		border: $border-thickness solid lighten($green, 30%);
+	}
+	&.search:focus {
+		border: $border-thickness solid $green;
+	}
+}

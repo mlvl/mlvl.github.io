@@ -1,0 +1,42 @@
+/* The base stylesheet for Fluxweed.
+
+This includes such things as the font 
+stack, colors, universal standards 
+(such as a standard width for borders)
+general mixins, styling for the body,
+headings, blockquote, and anchor tags. */
+body {
+  background-color: #f2f2f2;
+  color: #1a1a1a;
+  line-height: 1;
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  font-size: 1.6rem; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700; }
+
+h3, h4, h5, h6 {
+  text-transform: uppercase; }
+
+a, a:visited {
+  text-decoration: none;
+  color: #1a1a1a;
+  cursor: pointer; }
+  a:active, a:visited:active {
+    color: #1a1a1a; }
+
+blockquote {
+  margin: 0rem 5rem 1rem 5rem;
+  line-height: 1.5;
+  font-style: italic; }
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-bottom: 1rem; }
+
+strong {
+  font-weight: 700; }
+
+em {
+  font-style: italic; }

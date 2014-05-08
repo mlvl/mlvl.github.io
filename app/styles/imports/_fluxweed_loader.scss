@@ -1,0 +1,64 @@
+/* A simple loading icon
+part of the fluxweed library
+
+meant to be used with the following HTML:
+<div class="loader">
+	<!-- copy paste as many spinner divs as you'd like -->
+	<div class="spinner"></div>
+</div>
+*/
+
+@mixin spin {
+	-webkit-animation-duration: 4s;
+	-webkit-animation-name: spin;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	&:nth-child(8n + 1) {
+		-webkit-animation-delay: 0s;
+	}
+	&:nth-child(8n + 2) {
+		-webkit-animation-delay: 0.5s;
+	}
+	&:nth-child(8n + 3) {
+		-webkit-animation-delay: 1s;
+	}
+	&:nth-child(8n + 4) {
+		-webkit-animation-delay: 1.5s;
+	}
+	&:nth-child(8n + 5) {
+		-webkit-animation-delay: 2s;
+	}
+	&:nth-child(8n + 6) {
+		-webkit-animation-delay: 2.5s;
+	}
+	&:nth-child(8n + 7) {
+		-webkit-animation-delay: 3s;
+	}
+	&:nth-child(8n + 8) {
+		-webkit-animation-delay: 3.5s;
+	}
+}
+
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	85% {
+		-webkit-transform: rotate(1080deg);
+	}
+	100% {
+		-webkit-transform: rotate(1080deg);
+	}
+}
+
+.loader {
+	.spinner {
+		width: 2rem;
+		height: 2rem;
+		margin: 1.2rem;
+		content: " ";
+		display: inline-block;
+		background: $red;
+		@include spin;
+	}
+}
