@@ -21,7 +21,7 @@ module.exports = function (grunt) {
     // Project settings
     yeoman: {
       // configurable paths
-      app: require('./bower.json').appPath || 'app',
+      app: "",
       dist: 'dist'
     },
 
@@ -55,7 +55,7 @@ module.exports = function (grunt) {
         },
         files: [
           '<%= yeoman.app %>/{,*/}*.html',
-          '.tmp/styles/{,*/}*.css',
+          'app/styles/{,*/}*.css',
           '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
         ]
       }
@@ -148,7 +148,7 @@ module.exports = function (grunt) {
     // Automatically inject Bower components into the app
     bowerInstall: {
       app: {
-        src: ['<%= yeoman.app %>/index.html'],
+        src: ['index.html'],
         ignorePath: new RegExp('^<%= yeoman.app %>/'),
         fileTypes: {
         html: {
@@ -169,15 +169,15 @@ module.exports = function (grunt) {
     compass: {
       options: {
         sassDir: '<%= yeoman.app %>/styles',
-        cssDir: '.tmp/styles',
+        cssDir: '<%= yeoman.app %>/styles',
         generatedImagesDir: '.tmp/images/generated',
         imagesDir: '<%= yeoman.app %>/images',
         javascriptsDir: '<%= yeoman.app %>/js',
         fontsDir: '<%= yeoman.app %>/styles/fonts',
         importPath: '<%= yeoman.app %>/bower_components',
-        httpImagesPath: '/images',
-        httpGeneratedImagesPath: '/images/generated',
-        httpFontsPath: '/styles/fonts',
+        httpImagesPath: '<%= yeoman.app %>/images',
+        httpGeneratedImagesPath: '<%= yeoman.app %>/images/generated',
+        httpFontsPath: '<%= yeoman.app %>/styles/fonts',
         relativeAssets: false,
         assetCacheBuster: false,
         raw: 'Sass::Script::Number.precision = 10\n'
@@ -212,7 +212,7 @@ module.exports = function (grunt) {
     // concat, minify and revision files. Creates configurations in memory so
     // additional tasks can operate on them
     useminPrepare: {
-      html: '<%= yeoman.app %>/index.html',
+      html: 'index.html',
       options: {
         dest: '<%= yeoman.dist %>',
         flow: {
