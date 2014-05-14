@@ -37,52 +37,64 @@ body {
   padding-bottom: 19px;
 }
 
-/* Custom page footer */
+/* Portfolio item */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/decisive-ui\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000339}}
+portfolio-item {
+  display: block;
+  width: 70%;
+  height: 250px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* Custom page footer */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/decisive-ui\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000350}}
 .footer {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/decisive-ui\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/decisive-ui\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000356}}
 .container-narrow > hr {
   margin: 30px 0;
 }
 
 /* Main marketing message and sign up button */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/decisive-ui\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/decisive-ui\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000361}}
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/decisive-ui\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/decisive-ui\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000366}}
 .jumbotron .btn {
   font-size: 21px;
   padding: 14px 24px;
 }
 
 /* Supporting marketing content */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/decisive-ui\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/decisive-ui\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000372}}
 .marketing {
   margin: 40px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/decisive-ui\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/decisive-ui\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000376}}
 .marketing p + h4 {
   margin-top: 28px;
 }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/decisive-ui\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/decisive-ui\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000382}}
   .container {
-    max-width: 730px;
+    max-width: 100%;
   }
 
   /* Remove the padding we set earlier */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/decisive-ui\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/decisive-ui\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000389}}
   .header,
   .marketing,
   .footer {
@@ -91,13 +103,13 @@ body {
   }
 
   /* Space out the masthead */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/decisive-ui\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/decisive-ui\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000394}}
   .header {
     margin-bottom: 30px;
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/decisive-ui\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/decisive-ui\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000398}}
   .jumbotron {
     border-bottom: 0;
   }

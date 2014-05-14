@@ -5,7 +5,8 @@ angular
     'ngCookies',
     'ngResource',
     'ngSanitize',
-    'ngRoute'
+    'ngRoute',
+    'decisiveUigithubioApp.directives'
   ])
   .config(function ($routeProvider) {
     $routeProvider
