@@ -1,4 +1,3 @@
-decisive-ui.github.io
-=====================
+![Logo](mlvl-logo-color-500.png)
 
-Decisive UI's portfolio site!
+Work-in-progress portfolio site for the Machine Learning Visualization Lab
