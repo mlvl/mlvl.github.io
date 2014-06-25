@@ -5,7 +5,8 @@
          restrict: 'EA',
          templateUrl: 'app/views/portfolioItem.html',
          link: function(scope) {
-          
+
+
          }
        }
      }

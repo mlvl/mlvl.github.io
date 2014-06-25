@@ -1,11 +1,30 @@
 <div class="header">
-<h3>Decisive UI</h3>
+  <img src="../app/images/banner-color-1000.png"/>
 </div>
 
-<div class="portfolio">
-  <portfolio-item ng-repeat="item in items"></portfolio-item>
+<div class="intro-section">
+    <p class="intro">Welcome to the home of the Machine Learning Visualization Lab at Decisive Analytics Corporation! This site is still a work in progress and will eventually showcase our work and open source contributions. Check back periodically - we're building something cool.</p>
+    <!-- <div class="scroll-down"></div> -->
+</div>
+
+<div class="portfolio section-container">
+    <h3 class="section-header">Portfolio</h3>
+    <portfolio-item ng-repeat="item in items" ng-click="showItem($index)"></portfolio-item>
+</div>
+
+<!-- <div class="who section-container">
+    <h3 class="section-header">Who We Are</h3>
+</div> -->
+
+<div class="contact section-container">
+    <h3 class="section-header">Contact Us</h3>
+    <a class="contact-icon" href="https://twitter.com/decisiveUI" target="_blank"><img src="../app/images/Twitter_logo_blue.png"></a>
+    <a class="contact-icon" href="https://github.com/mlvl" target="_blank"><img src="../app/images/GitHub-Logos/GitHub_Logo.png"></a>
+    <a class="contact-icon" href="http://www.visualizing.org/users/mlvl" target="_blank"><img src="../app/images/visualizing.png"></a>
 </div>
 
 <div class="footer">
-  <p>This page is the home of Decisive UI's portfolio and is currently under construction.</p>
+    <p>Copyright 2014 | All rights reserved | The Machine Learning Visualization Lab is a division within Decisive Analytics Corporation</p>
+    <a class="dac-icon" href="http://www.dac.us" target="_blank"><img src="../app/images/DAC_Logo_BW_v0.png"></a>
+
 </div>

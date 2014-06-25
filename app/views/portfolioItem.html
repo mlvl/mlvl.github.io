@@ -1,2 +1,20 @@
-
-<img ng-src='{{item.image}}'/>
+<a href="http://mlvl.github.io/Hierarchie">
+    <div class="portfolio-item-wrapper" ng-show="item.showing">
+        <div class="item-des">
+            <div class="center-vertical">
+                <div class="item-title">{{item.title}}</div>
+                <div>{{item.date}}</div>
+                <div ng-if="item.liveurl">{{item.liveurl}}</div>
+                <div ng-if="item.description">
+                    <p>{{item.description}}</p>
+                </div>
+            </div>
+        </div>
+        <!-- <div ng-repeat="for picture in item.screenshots">
+        <img ng-src="picture">
+      </div> -->
+        <div class="portfolio-img">
+            <img ng-src='{{item.image}}' />
+        </div>
+    </div>
+</a>
