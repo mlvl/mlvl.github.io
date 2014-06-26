@@ -6,15 +6,17 @@
                 <div>{{item.date}}</div>
                 <div ng-if="item.liveurl">{{item.liveurl}}</div>
                 <div ng-if="item.description">
-                    <p>{{item.description}}</p>
+                    {{item.description}}
                 </div>
+            </div>
+            <div class="portfolio-img">
+                <span class="helper"></span>
+                <img ng-src='{{item.image}}' />
             </div>
         </div>
         <!-- <div ng-repeat="for picture in item.screenshots">
         <img ng-src="picture">
       </div> -->
-        <div class="portfolio-img">
-            <img ng-src='{{item.image}}' />
-        </div>
+
     </div>
 </a>

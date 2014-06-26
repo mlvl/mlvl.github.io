@@ -10,40 +10,20 @@ $clouds: #ECF0F1;
     background-color: $clouds;
     color: $midnightblue;
 }
-/* Everything but the jumbotron gets side spacing for mobile first views */
- .header, .marketing, .footer {
-    padding-left: 15px;
-    padding-right: 15px;
-}
 /* Custom page header */
  .header {
     border-bottom: 1px solid $border;
     text-align: center;
     img {
-        width: 30%;
+        width: 60%;
         padding: .5em;
     }
-    .links {
-        padding: 0em 0em 1em 0em;
-        .link {
-            padding: 0em 2em 0em 2em;
-            text-transform: uppercase;
-        }
-    }
-}
-/* Make the masthead heading the same height as the navigation */
- .header h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
-    background-color: $clouds;
 }
 .section-header {
     margin: 1em;
 }
 .section-container {
-    min-height: 90vh;
+    min-height: 50vh;
     width: 100%;
     text-align: center;
     padding-top: .5em;
@@ -54,12 +34,13 @@ $clouds: #ECF0F1;
     color: $midnightblue;
     .intro {
         display: block;
-        width: 50%;
+        width: 65%;
         margin-left: auto;
         margin-right: auto;
         height: 50vh;
-        padding-top: 6em;
+        padding-top: 2em;
         text-align: center;
+        font-size: .8em;
     }
 }
 .scroll-down {
@@ -71,51 +52,59 @@ $clouds: #ECF0F1;
     border-right: 4em solid transparent;
     border-top: 2em solid $midnightblue;
 }
-.portfolio {
+/* Portfolio */
+ .portfolio {
     background-color: $midnightblue;
     color: $clouds;
     /* Portfolio item */
     portfolio-item {
         display: block;
         overflow: hidden;
-        margin: 0 auto;
-        margin-top: 1em;
-        margin-bottom: 1em;
+        margin: .5em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
         cursor: pointer;
         height: 20em;
-        opacity: 0.9;
-        &:hover {
-            opacity: 1;
-        }
+        opacity: 1;
         .portfolio-item-wrapper {
-            width: 61em;
-            margin-left: auto;
-            margin-right: auto;
             .item-des {
-                height: 20em;
-                width: 15em;
+                height: 70vh;
+                font-size: .8em;
                 background-color: $clouds;
                 color: $midnightblue;
-                display: inline-block;
-                float: left;
-                display: table;
+                text-align: center;
                 .center-vertical {
-                    display: table-cell;
-                    text-align: center;
-                    vertical-align: middle;
+                    width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 2%;
+                }
+                .item-title {
+                    text-transform: uppercase;
+                    font-size: 1.3em;
+                    font-weight: 700;
+                    padding-bottom: 0.5em;
+                    padding-top: 0.5em;
                 }
             }
             .portfolio-img {
-                display: inline-block;
-                img {
-                    height: 20em;
+                height: 30vh;
+                width: 100%;
+                white-space: nowrap;
+                text-align: center;
+                margin: 1em 0;
+                .helper {
+                    display: inline-block;
+                    height: 100%;
+                    vertical-align: middle;
                 }
-            }
-            .item-title {
-                text-transform: uppercase;
-                font-size: 1.2em;
-                font-weight: 700;
-                padding-bottom: 0.5em;
+                img {
+                    background: #3A6F9A;
+                    vertical-align: middle;
+                    max-height: 30vh;
+                    max-width: 100%;
+                }
             }
         }
     }
@@ -129,46 +118,124 @@ $clouds: #ECF0F1;
     color: $clouds;
     .contact-icon {
         margin: 1em;
-        opacity: 0.9;
-        &:hover {
-            opacity: 1;
+        opacity: 1;
+        img {
+            width: 20%;
         }
     }
 }
 /* Custom page footer */
  .footer {
-    padding-top: 19px;
+    padding-top: .3em;
     color: #777;
     border-top: 1px solid #e5e5e5;
-    position: relative;
+    text-align: center;
     p {
-        font-size: 0.8em;
+        font-size: 0.5em;
         text-align: center;
+        margin: 0px;
     }
     .dac-icon {
-        position: absolute;
-        top: 0;
-        right: 1em;
         img {
-            width: 5em;
+            width: 4em;
         }
     }
 }
-.container-narrow > hr {
-    margin: 30px 0;
-}
 /* Responsive: Portrait tablets and up */
  @media screen and (min-width: 768px) {
-    .container {
-        max-width: 100%;
+    /* Custom page header */
+    .header img {
+        width: 30%;
     }
-    /* Remove the padding we set earlier */
-    .header, .marketing, .footer {
-        padding-left: 0;
-        padding-right: 0;
+    .intro-section {
+        .intro {
+            width: 50%;
+            padding-top: 6em;
+            font-size: 1em;
+        }
     }
-    /* Space out the masthead */
-    .header {
-        margin-bottom: 1%;
+    .section-container {
+        min-height: 90vh;
+    }
+    .scroll-down {
+        margin-left: auto;
+        margin-right: auto;
+        width: 0;
+        height: 0;
+        border-left: 4em solid transparent;
+        border-right: 4em solid transparent;
+        border-top: 2em solid $midnightblue;
+    }
+    /* Portfolio */
+    .portfolio {
+        /* Portfolio item */
+        portfolio-item {
+            margin: 0 auto;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            opacity: 0.9;
+            &:hover {
+                opacity: 1;
+            }
+            .portfolio-item-wrapper {
+                width: 61em;
+                margin-left: auto;
+                margin-right: auto;
+                .item-des {
+                    height: 20em;
+                    display: inline-block;
+                    float: left;
+                    display: table;
+                    font-size: 1em;
+                    .center-vertical {
+                        width: 15em;
+                        display: table-cell;
+                        text-align: center;
+                        vertical-align: middle;
+                    }
+                }
+                .portfolio-img {
+                    display: inline-block;
+                    margin: 0;
+                    height: "";
+                    width: "";
+                    img {
+                        max-height: none;
+
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .contact {
+        background-color: $beliezehole;
+        color: $clouds;
+        .contact-icon {
+            margin: 1em;
+            opacity: 0.9;
+            &:hover {
+                opacity: 1;
+            }
+            img {
+                width:"";
+            }
+        }
+    }
+    /* Custom page footer */
+    .footer {
+        padding-top: 1em;
+        position: relative;
+        p {
+            font-size: 0.8em;
+        }
+        .dac-icon {
+            position: absolute;
+            top: 0;
+            right: 1em;
+            img {
+                width: 5em;
+            }
+        }
     }
 }
