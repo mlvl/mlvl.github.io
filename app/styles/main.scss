@@ -1,22 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700,800);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,300,300italic,400italic);
+@import url(http://fonts.googleapis.com/css?family=Sigmar+One);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
 $clouds: #ECF0F1;
- $midnightblue: #2C3E50;
- $beliezehole: #2980B9;
- $concrete: #95A5A6;
- $border: #D5D5D5;
+$midnightblue: #2C3E50;
+$beliezehole: #2980B9;
+$concrete: #95A5A6;
+$border: #D5D5D5;
+$carrot: #E67E22;
+
+@mixin box-shadow-rb {
+  box-shadow: rgba(0,0,0,0.15) 1px 1px 3px;
+}
+
+@mixin box-shadow-all {
+  box-shadow: rgba(0,0,0,0.15) 0px 0px 3px;
+}
+
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
 /* Space out content a bit */
  body {
     margin: 0px;
-    background-color: $clouds;
+    background-color: white;
     color: $midnightblue;
+    font-family: 'Open Sans', sans-serif;
 }
 /* Custom page header */
  .header {
     border-bottom: 1px solid $border;
     text-align: center;
-    img {
-        width: 60%;
+    height: 267px;
+    position: relative;
+    overflow: hidden;
+    .under-image {
+        position: absolute;
+        top: 0;
+        left: -100px;
+        right: 0;
+        height: 310px;
+        opacity: 0.3;
+        z-index: -1;
+    }
+    .logo {
+        @include vertical-align;
+        width: 30%;
         padding: .5em;
+        opacity: 1;
     }
 }
 .section-header {
@@ -30,15 +68,17 @@ $clouds: #ECF0F1;
     padding-bottom: .5em;
 }
 .intro-section {
-    background-color: $clouds;
-    color: $midnightblue;
+    background-color: $midnightblue;
+    color: $clouds;
+    height: 180px;
+    position: relative;
     .intro {
+        @include vertical-align;
+        font-weight: 300;
         display: block;
-        width: 65%;
+        width: 46%;
         margin-left: auto;
         margin-right: auto;
-        height: 50vh;
-        padding-top: 2em;
         text-align: center;
         font-size: .8em;
     }
@@ -54,8 +94,10 @@ $clouds: #ECF0F1;
 }
 /* Portfolio */
  .portfolio {
-    background-color: $midnightblue;
-    color: $clouds;
+    background-color: $clouds;
+    color: $midnightblue;
+    border-bottom: 1px solid $border;
+    border-top: 1px solid $border;
     /* Portfolio item */
     portfolio-item {
         display: block;
@@ -87,9 +129,13 @@ $clouds: #ECF0F1;
                     padding-bottom: 0.5em;
                     padding-top: 0.5em;
                 }
+                .description {
+                    padding: 1em;
+                    font-size: 0.8em;
+                }
             }
             .portfolio-img {
-                height: 30vh;
+                height: 200px;
                 width: 100%;
                 white-space: nowrap;
                 text-align: center;
@@ -102,6 +148,7 @@ $clouds: #ECF0F1;
                 img {
                     background: #3A6F9A;
                     vertical-align: middle;
+                    height:200px;
                     max-height: 30vh;
                     max-width: 100%;
                 }
@@ -113,13 +160,42 @@ $clouds: #ECF0F1;
     background-color: $concrete;
     color: $midnightblue;
 }
+.technology {
+    width: 100%;
+    text-align: center;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    height: 267px;
+    border-top: 1px solid $border;
+    .center-vertical {
+       @include vertical-align;
+    }
+    .technology-item {
+        display: inline-block;
+        width: 109px;
+        vertical-align: top;
+        height: 110px;
+        margin: 15px;
+        padding: 10px;
+        cursor: pointer;
+        .item-icon {
+            font-size: 2.5em;
+            &:hover {
+                color: $beliezehole;
+            }
+        }
+        .item {
+            font-size: 0.7em;
+        }
+    }
+}
 .contact {
-    background-color: $beliezehole;
-    color: $clouds;
+    background-color: $clouds;
     .contact-icon {
         margin: 1em;
         opacity: 1;
         img {
+            @include box-shadow-rb;
             width: 20%;
         }
     }
@@ -145,17 +221,12 @@ $clouds: #ECF0F1;
  @media screen and (min-width: 768px) {
     /* Custom page header */
     .header img {
-        width: 30%;
+        //width: 30%;
     }
     .intro-section {
         .intro {
-            width: 50%;
-            padding-top: 6em;
             font-size: 1em;
         }
-    }
-    .section-container {
-        min-height: 90vh;
     }
     .scroll-down {
         margin-left: auto;
@@ -209,8 +280,6 @@ $clouds: #ECF0F1;
         }
     }
     .contact {
-        background-color: $beliezehole;
-        color: $clouds;
         .contact-icon {
             margin: 1em;
             opacity: 0.9;

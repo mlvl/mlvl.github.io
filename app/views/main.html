@@ -1,20 +1,27 @@
 <div class="header">
-  <img src="../app/images/banner-color-1000.png"/>
+    <img class="logo" src="../app/images/banner-color-1000.png"/>
+    <img class="under-image" src="../app/images/map-banner-3.png"/>
+
 </div>
 
 <div class="intro-section">
-    <p class="intro">Welcome to the home of the Machine Learning Visualization Lab at Decisive Analytics Corporation! This site is still a work in progress and will eventually showcase our work and open source contributions. Check back periodically - we're building something cool.</p>
+    <p class="intro">We're the Machine Learning Visualization Lab at Decisive Analytics Corporation. We visualize cutting edge areas of big data analytics, machine learning, and natural lanugage processing.</p>
     <!-- <div class="scroll-down"></div> -->
+</div>
+
+<div class="technology">
+    <div class="center-vertical">
+        <div class="technology-item" ng-repeat="c in tech">
+            <div class="item-icon"><span ng-class="'icon {{c.icon}}'"></span></div>
+            <div class="item">{{c.name}}</div>
+        </div>
+    </div>
 </div>
 
 <div class="portfolio section-container">
     <h3 class="section-header">Portfolio</h3>
     <portfolio-item ng-repeat="item in items" ng-click="showItem($index)"></portfolio-item>
 </div>
-
-<!-- <div class="who section-container">
-    <h3 class="section-header">Who We Are</h3>
-</div> -->
 
 <div class="contact section-container">
     <h3 class="section-header">Contact Us</h3>

@@ -1,11 +1,11 @@
-<a href="http://mlvl.github.io/Hierarchie">
+<a ng-href="{{item.href}}">
     <div class="portfolio-item-wrapper" ng-show="item.showing">
         <div class="item-des">
             <div class="center-vertical">
                 <div class="item-title">{{item.title}}</div>
                 <div>{{item.date}}</div>
                 <div ng-if="item.liveurl">{{item.liveurl}}</div>
-                <div ng-if="item.description">
+                <div ng-if="item.description" class="description">
                     {{item.description}}
                 </div>
             </div>
