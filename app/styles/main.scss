@@ -113,8 +113,8 @@ $carrot: #E67E22;
             .item-des {
                 height: 70vh;
                 font-size: .8em;
-                background-color: $clouds;
-                color: $midnightblue;
+                background-color: $midnightblue;
+                color: $clouds;
                 text-align: center;
                 .center-vertical {
                     width: 80%;
@@ -135,7 +135,6 @@ $carrot: #E67E22;
                 }
             }
             .portfolio-img {
-                height: 200px;
                 width: 100%;
                 white-space: nowrap;
                 text-align: center;
@@ -148,7 +147,6 @@ $carrot: #E67E22;
                 img {
                     background: #3A6F9A;
                     vertical-align: middle;
-                    height:200px;
                     max-height: 30vh;
                     max-width: 100%;
                 }
@@ -242,8 +240,8 @@ $carrot: #E67E22;
         /* Portfolio item */
         portfolio-item {
             margin: 0 auto;
-            margin-top: 1em;
-            margin-bottom: 1em;
+            margin-top: 2em;
+            margin-bottom: 2em;
             opacity: 0.9;
             &:hover {
                 opacity: 1;
@@ -253,6 +251,7 @@ $carrot: #E67E22;
                 margin-left: auto;
                 margin-right: auto;
                 .item-des {
+                    @include box-shadow-rb;
                     height: 20em;
                     display: inline-block;
                     float: left;
@@ -272,8 +271,8 @@ $carrot: #E67E22;
                     width: "";
                     img {
                         max-height: none;
-
-                        width: 100%;
+                        max-width: 94%;
+                        margin-top: 1%;
                     }
                 }
             }

@@ -116,8 +116,8 @@ body {
 .portfolio portfolio-item .portfolio-item-wrapper .item-des {
   height: 70vh;
   font-size: .8em;
-  background-color: #ecf0f1;
-  color: #2c3e50;
+  background-color: #2c3e50;
+  color: #ecf0f1;
   text-align: center;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003119}}
@@ -142,34 +142,32 @@ body {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003137}}
 .portfolio portfolio-item .portfolio-item-wrapper .portfolio-img {
-  height: 200px;
   width: 100%;
   white-space: nowrap;
   text-align: center;
   margin: 1em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003142}}
 .portfolio portfolio-item .portfolio-item-wrapper .portfolio-img .helper {
   display: inline-block;
   height: 100%;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003147}}
 .portfolio portfolio-item .portfolio-item-wrapper .portfolio-img img {
   background: #3A6F9A;
   vertical-align: middle;
-  height: 200px;
   max-height: 30vh;
   max-width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003157}}
 .who {
   background-color: #95a5a6;
   color: #2c3e50;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003161}}
 .technology {
   width: 100%;
   text-align: center;
@@ -178,7 +176,7 @@ body {
   height: 267px;
   border-top: 1px solid #d5d5d5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003168}}
 .technology .center-vertical {
   position: relative;
   top: 50%;
@@ -186,7 +184,7 @@ body {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003171}}
 .technology .technology-item {
   display: inline-block;
   width: 109px;
@@ -196,49 +194,49 @@ body {
   padding: 10px;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003179}}
 .technology .technology-item .item-icon {
   font-size: 2.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003181}}
 .technology .technology-item .item-icon:hover {
   color: #2980b9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003185}}
 .technology .technology-item .item {
   font-size: 0.7em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003190}}
 .contact {
   background-color: #ecf0f1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003192}}
 .contact .contact-icon {
   margin: 1em;
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003195}}
 .contact .contact-icon img {
   box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 3px;
   width: 20%;
 }
 
 /* Custom page footer */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003204}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003202}}
 .footer {
   padding-top: .3em;
   color: #777;
   border-top: 1px solid #e5e5e5;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003207}}
 .footer p {
   font-size: 0.5em;
   text-align: center;
   margin: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003213}}
 .footer .dac-icon img {
   width: 4em;
 }
@@ -246,12 +244,12 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Custom page header */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003225}}
   .intro-section .intro {
     font-size: 1em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003229}}
   .scroll-down {
     margin-left: auto;
     margin-right: auto;
@@ -263,86 +261,88 @@ body {
   }
 
   /* Portfolio */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003239}}
   .portfolio {
     /* Portfolio item */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003241}}
   .portfolio portfolio-item {
     margin: 0 auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     opacity: 0.9;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003248}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003246}}
   .portfolio portfolio-item:hover {
     opacity: 1;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003249}}
   .portfolio portfolio-item .portfolio-item-wrapper {
     width: 61em;
     margin-left: auto;
     margin-right: auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003253}}
   .portfolio portfolio-item .portfolio-item-wrapper .item-des {
+    box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 3px;
     height: 20em;
     display: inline-block;
     float: left;
     display: table;
     font-size: 1em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003260}}
   .portfolio portfolio-item .portfolio-item-wrapper .item-des .center-vertical {
     width: 15em;
     display: table-cell;
     text-align: center;
     vertical-align: middle;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003268}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003267}}
   .portfolio portfolio-item .portfolio-item-wrapper .portfolio-img {
     display: inline-block;
     margin: 0;
     height: "";
     width: "";
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003272}}
   .portfolio portfolio-item .portfolio-item-wrapper .portfolio-img img {
     max-height: none;
-    width: 100%;
+    max-width: 94%;
+    margin-top: 1%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003283}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003282}}
   .contact .contact-icon {
     margin: 1em;
     opacity: 0.9;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003286}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003285}}
   .contact .contact-icon:hover {
     opacity: 1;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003288}}
   .contact .contact-icon img {
     width: "";
   }
 
   /* Custom page footer */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003295}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003294}}
   .footer {
     padding-top: 1em;
     position: relative;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003297}}
   .footer p {
     font-size: 0.8em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003301}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003300}}
   .footer .dac-icon {
     position: absolute;
     top: 0;
     right: 1em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003305}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\00003304}}
   .footer .dac-icon img {
     width: 5em;
   }
