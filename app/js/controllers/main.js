@@ -19,7 +19,7 @@ angular.module('decisiveUigithubioApp')
       },
       {
         'title': 'FCC Comments Anaylsis',
-        'description': 'An analysis of almost half a million FCC Comments.',
+        'description': 'A topical analysis of half a million comments to the FCC reguarding net neutrality.',
         'image': 'app/images/fcc_comments/fcc.png',
         'showing': true,
         'href': 'http://mlvl.github.io/fcc-comments/#/'

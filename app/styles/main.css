@@ -63,7 +63,7 @@ body {
 .intro-section {
   background-color: #2c3e50;
   color: #ecf0f1;
-  height: 180px;
+  height: 210px;
   position: relative;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meredith\/code\/mlvl\.github\.io\/app\/styles\/main\.scss}line{font-family:\0000378}}
@@ -75,7 +75,7 @@ body {
   transform: translateY(-50%);
   font-weight: 300;
   display: block;
-  width: 46%;
+  width: 52%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
