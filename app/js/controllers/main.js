@@ -12,7 +12,7 @@ angular.module('decisiveUigithubioApp')
     $scope.items = [
       {
         'title': 'Hierarchie',
-        'description': 'A structured display of topics from discussion surrounding the MH-370 disappearance.',
+        'description': 'A structured display of topics from discussion surrounding the MH-370 airliner disappearance.',
         'image': 'app/images/hierarchie/hierarchie1.png',
         'showing': true,
         'href': 'http://mlvl.github.io/Hierarchie'

@@ -1,7 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700,800);
 @import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,300,300italic,400italic);
-@import url(http://fonts.googleapis.com/css?family=Sigmar+One);
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 
 $clouds: #ECF0F1;
@@ -34,6 +33,7 @@ $carrot: #E67E22;
     color: $midnightblue;
     font-family: 'Open Sans', sans-serif;
 }
+
 /* Custom page header */
  .header {
     border-bottom: 1px solid $border;
@@ -58,7 +58,10 @@ $carrot: #E67E22;
     }
 }
 .section-header {
-    margin: 1em;
+    font-family: "Lato", sans-serif;
+    margin: 4%;
+    text-transform: uppercase;
+    font-size: 32px;
 }
 .section-container {
     min-height: 50vh;
@@ -110,45 +113,30 @@ $carrot: #E67E22;
         height: 20em;
         opacity: 1;
         .portfolio-item-wrapper {
-            .item-des {
-                height: 70vh;
-                font-size: .8em;
-                background-color: $midnightblue;
-                color: $clouds;
-                text-align: center;
-                .center-vertical {
-                    width: 80%;
-                    margin-left: auto;
-                    margin-right: auto;
-                    margin-bottom: 2%;
-                }
-                .item-title {
-                    text-transform: uppercase;
-                    font-size: 1.3em;
-                    font-weight: 700;
-                    padding-bottom: 0.5em;
-                    padding-top: 0.5em;
-                }
-                .description {
-                    padding: 1em;
-                    font-size: 0.8em;
-                }
+            color: $midnightblue;
+            .item-title {
+                font-weight: 700;
+                text-transform: uppercase;
+                font-size: 1.2em;
             }
-            .portfolio-img {
-                width: 100%;
-                white-space: nowrap;
+            .item-description {
+                font-size: 0.9em;
+                font-weight: 300;
+            }
+            .item-des {
+                font-size: .8em;                
                 text-align: center;
-                margin: 1em 0;
-                .helper {
-                    display: inline-block;
-                    height: 100%;
-                    vertical-align: middle;
-                }
-                img {
-                    background: #3A6F9A;
-                    vertical-align: middle;
-                    max-height: 30vh;
-                    max-width: 100%;
+                .portfolio-img {
+                    width: 100%;
+                    white-space: nowrap;
+                    text-align: center;
+                    margin: 1em 0;
+                    img {
+                        background: #3A6F9A;
+                        vertical-align: middle;
+                        max-height: 30vh;
+                        max-width: 100%;
+                    }
                 }
             }
         }
@@ -190,7 +178,7 @@ $carrot: #E67E22;
 .contact {
     background-color: $clouds;
     .contact-icon {
-        margin: 1em;
+        margin: 1%;
         opacity: 1;
         img {
             @include box-shadow-rb;
@@ -240,8 +228,8 @@ $carrot: #E67E22;
         /* Portfolio item */
         portfolio-item {
             margin: 0 auto;
-            margin-top: 2em;
-            margin-bottom: 2em;
+            margin-top: 4%;
+            margin-bottom: 4%;
             opacity: 0.9;
             &:hover {
                 opacity: 1;
@@ -250,37 +238,32 @@ $carrot: #E67E22;
                 width: 61em;
                 margin-left: auto;
                 margin-right: auto;
-                .item-des {
-                    @include box-shadow-rb;
-                    height: 20em;
-                    display: inline-block;
-                    float: left;
-                    display: table;
-                    font-size: 1em;
-                    .center-vertical {
-                        width: 15em;
-                        display: table-cell;
-                        text-align: center;
-                        vertical-align: middle;
-                    }
+                .item-title {
+
                 }
-                .portfolio-img {
-                    display: inline-block;
-                    margin: 0;
-                    height: "";
-                    width: "";
-                    img {
-                        max-height: none;
-                        max-width: 94%;
-                        margin-top: 1%;
+                .item-description {
+
+                }
+                .item-des {
+                    font-size: 1em;
+                    .portfolio-img {
+                        margin: 0;
+                        img {
+                            max-height: none;
+                            max-width: 94%;
+                            margin-top: 1%;
+                        }
                     }
                 }
             }
         }
     }
     .contact {
+        background-color: $midnightblue;
+        color: $clouds;
+        padding-bottom: 4%;
         .contact-icon {
-            margin: 1em;
+            margin: 1%;
             opacity: 0.9;
             &:hover {
                 opacity: 1;
@@ -296,6 +279,12 @@ $carrot: #E67E22;
         position: relative;
         p {
             font-size: 0.8em;
+        }
+        a {
+            color: $concrete;
+            &:hover {
+                color: $beliezehole;
+            }
         }
         .dac-icon {
             position: absolute;
