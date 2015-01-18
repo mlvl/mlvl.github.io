@@ -24,6 +24,13 @@ angular.module('decisiveUigithubioApp')
         'showing': true,
         'href': 'http://mlvl.github.io/fcc-comments/#/'
       },
+      {
+        'title': 'BrooklynJS Presentation',
+        'description': 'MLVL member Meredith Myers presented personal project "Ratmap" at BrooklynJS.',
+        'image': 'app/images/brooklynjs/ratmap.png',
+        'showing': true,
+        'href': 'http://meredithmmyers.com/ratmap'
+      }
     ];
 
     $scope.tech = [{
