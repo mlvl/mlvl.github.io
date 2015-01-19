@@ -38,15 +38,16 @@ $carrot: #E67E22;
  .header {
     border-bottom: 1px solid $border;
     text-align: center;
-    height: 150px;
+    height: 20vh;
     position: relative;
     overflow: hidden;
     .under-image {
         position: absolute;
         top: 0;
-        left: -100px;
+        left: 0;
         right: 0;
-        height: 150px;
+        height: 20vh;
+        //width: 100%;
         opacity: 0.3;
         z-index: -1;
     }
@@ -84,15 +85,6 @@ $carrot: #E67E22;
         text-align: center;
         font-size: .8em;
     }
-}
-.scroll-down {
-    margin-left: auto;
-    margin-right: auto;
-    width: 0;
-    height: 0;
-    border-left: 4em solid transparent;
-    border-right: 4em solid transparent;
-    border-top: 2em solid $midnightblue;
 }
 /* Portfolio */
  .portfolio {
@@ -200,6 +192,12 @@ $carrot: #E67E22;
         text-align: center;
         margin: 0px;
     }
+    a {
+        color: $concrete;
+        &:hover {
+            color: $beliezehole;
+        }
+    }
     .dac-icon {
         img {
             width: 4em;
@@ -210,9 +208,9 @@ $carrot: #E67E22;
  @media screen and (min-width: 768px) {
     /* Custom page header */
     .header {
-        height: 267px;
+        height: 30vh;
         .under-image {
-            height: 310px;
+            height: 40vh;
         }
         .logo {
             width: 30%;
@@ -224,15 +222,6 @@ $carrot: #E67E22;
             font-size: 1em;
             width: 52%;
         }
-    }
-    .scroll-down {
-        margin-left: auto;
-        margin-right: auto;
-        width: 0;
-        height: 0;
-        border-left: 4em solid transparent;
-        border-right: 4em solid transparent;
-        border-top: 2em solid $midnightblue;
     }
     /* Portfolio */
     .portfolio {
@@ -249,12 +238,6 @@ $carrot: #E67E22;
             .portfolio-item-wrapper {
                 margin-left: auto;
                 margin-right: auto;
-                .item-title {
-
-                }
-                .item-description {
-
-                }
                 .item-des {
                     font-size: 1em;
                     .portfolio-img {
@@ -276,8 +259,6 @@ $carrot: #E67E22;
         }
         .technology-item {
             width: 11%;
-            margin: 0.5%;
-            padding: 0.5%;
             .item-icon {
                 font-size: 2.5em;
             }
@@ -301,12 +282,6 @@ $carrot: #E67E22;
         position: relative;
         p {
             font-size: 0.8em;
-        }
-        a {
-            color: $concrete;
-            &:hover {
-                color: $beliezehole;
-            }
         }
         .dac-icon {
             position: absolute;
