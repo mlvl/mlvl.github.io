@@ -11,6 +11,13 @@ angular.module('decisiveUigithubioApp')
 
     $scope.items = [
       {
+        'title': 'Timeseries',
+        'description': 'A D3.js timeseries.',
+        'image': 'app/images/timeseries.png',
+        'showing': true,
+        'href': 'http://mlvl.github.io/timeseries'
+      },
+      {
         'title': 'Hierarchie',
         'description': 'A structured display of topics from discussion surrounding the MH-370 airliner disappearance.',
         'image': 'app/images/hierarchie/hierarchie1.png',
