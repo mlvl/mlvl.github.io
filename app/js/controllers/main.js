@@ -25,11 +25,25 @@ angular.module('decisiveUigithubioApp')
         'href': 'http://mlvl.github.io/Hierarchie'
       },
       {
+        'title': 'Semantic Role Labeling',
+        'description': 'Visualization of the results of concept labeling of text (based on FrameNet)',
+        'image': 'app/images/semantic/semantic-search.png',
+        'showing': true,
+        'href': null
+      },
+      {
         'title': 'FCC Comments Anaylsis',
         'description': 'A topical analysis of half a million comments to the FCC reguarding net neutrality.',
         'image': 'app/images/fcc_comments/fcc.png',
         'showing': true,
         'href': 'http://mlvl.github.io/fcc-comments/#/'
+      },
+      {
+        'title': 'Entity Topic Modeling',
+        'description': 'Display for viewing clusters of entities with related topic words.',
+        'image': 'app/images/spark/spark.png',
+        'showing': true,
+        'href': null
       },
       {
         'title': 'BrooklynJS Presentation',
