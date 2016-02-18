@@ -46,6 +46,13 @@ angular.module('decisiveUigithubioApp')
         'href': null
       },
       {
+        'title': 'Emotion Analysis',
+        'description': 'Visualization of the results of emotion analysis for a topics',
+        'image': 'app/images/semantic/sentiment.png',
+        'showing': true,
+        'href': null
+      },
+      {
         'title': 'BrooklynJS Presentation',
         'description': 'MLVL member Meredith Myers presented personal project "Ratmap" at BrooklynJS.',
         'image': 'app/images/brooklynjs/ratmap.png',
